@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-ivoryWarm text-oliveDeep antialiased;
+}
+
+.card {
+  @apply rounded-3xl border border-oliveDeep/10 bg-white/80 shadow-boutique backdrop-blur;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-full bg-oliveDeep px-5 py-3 text-sm font-semibold text-ivoryWarm transition hover:bg-oliveMid active:scale-[0.98];
+}
